@@ -28,6 +28,8 @@ const Header = () => {
             <img src="https://i.ibb.co/hf5FJch/lotus.png" alt="lotus" id="lotus-3"/>
             <img src="https://i.ibb.co/hf5FJch/lotus.png" alt="lotus" id="lotus-4" />
             <img src="https://i.ibb.co/hf5FJch/lotus.png" alt="lotus" id="lotus-5" />
+            <br></br>
+            <h2 id="quote">"All is number" -Pythagoras</h2>
           </Navbar.Brand>
          
           <Nav>
