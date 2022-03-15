@@ -9,6 +9,8 @@ const AuthHeader = () => {
 let refreshPage = () => {
     window.location.reload(false);
   }
+
+  
   return (
     <>
       <div id="header-img">
@@ -31,7 +33,9 @@ let refreshPage = () => {
        <img src="https://i.ibb.co/hf5FJch/lotus.png" alt="lotus" id="lotus-3"/>
        <img src="https://i.ibb.co/hf5FJch/lotus.png" alt="lotus" id="lotus-4" />
        <img src="https://i.ibb.co/hf5FJch/lotus.png" alt="lotus" id="lotus-5" />
-     </Navbar.Brand>a
+       <br></br>
+       <h2 id="quote">"All is number" -Pythagoras</h2>
+     </Navbar.Brand>
      
      <Nav>
             <Nav.Item>  

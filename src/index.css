@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -46,23 +46,10 @@ top: -37px;
     right: 435px;
 }
 #quote {
-
-    position: absolute;
-    left: 540px;
-    padding-right: 10px;
-    margin-top: 1px;
-    margin-left: 200px;
-    margin-bottom: 2px;
-    top: 170px;
-    font-size: 15px;
-    background-color: white;
-    padding-top: 5px;
-    height: 49px;
-    width: screen;
-    border-radius: 7px;
-    z-index: 50;
-  
-
+font-family: 'Cinzel', serif;
+  position: absolute;
+  right: 20px;
+font-size: 35px;
  
   
 }
