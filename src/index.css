@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Sansita+Swashed:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#lotus-1, #lotus-2, #lotus-3, #lotus-4, #lotus-5 {
+z-index: 50;
+scale: 22%;
+position: absolute;
+top: -37px;
+}
+
+#lotus-1 {
+    position: absolute;
+    right: 235px;
+}
+#lotus-2 {
+    position: absolute;
+    right: 285px;
+}
+#lotus-3 {
+    position: absolute;
+    right: 335px;
+}
+
+#lotus-4 {
+    position: absolute;
+    right: 385px;
+}
+
+#lotus-5 {
+    position: absolute;
+    right: 435px;
+}
+#quote {
+
+    position: absolute;
+    left: 540px;
+    padding-right: 10px;
+    margin-top: 1px;
+    margin-left: 200px;
+    margin-bottom: 2px;
+    top: 170px;
+    font-size: 15px;
+    background-color: white;
+    padding-top: 5px;
+    height: 49px;
+    width: screen;
+    border-radius: 7px;
+    z-index: 50;
+  
+
+ 
+  
+}
+#stained-glass {
+    position: absolute;
+    top: 900px;
+    left: -80px;
+    scale: 80%;
+}
+#profile {
+    position: absolute;
+    left: 60px;
+    box-shadow: rgba(233, 42, 191, 0.404) -5px 5px, rgba(124, 8, 218, 0.397) -10px 10px, rgba(105, 5, 163, 0.384) -15px 15px, rgba(25, 107, 117, 0.404) -20px 20px, rgba(132, 226, 255, 0.534) -25px 25px;
+}
+#userProfile {
+    position: absolute;
+    left: 600px;
+    top: 350px;
+    background: white;
+    height: 305px;
+    width: 360px;
+    max-height: 400px;
+    margin: 2px 2px 2px 2px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 8px;
+    border: solid rgb(110, 42, 173) 4px;
+    overflow-y: auto;
+    z-index: 40;
+    box-shadow: rgba(233, 42, 191, 0.404) -5px 5px, rgba(124, 8, 218, 0.397) -10px 10px, rgba(105, 5, 163, 0.384) -15px 15px, rgba(25, 107, 117, 0.404) -20px 20px, rgba(132, 226, 255, 0.534) -25px 25px;
+
+
+}
+#signup-btn {
+    background-color:rgb(95, 16, 62);
+    border-radius: 8px;
+    color: white;
+}
+#login-btn {
+    background-color: hotpink;
+}
+body {
+    background: black;
+      background-position-x: -150px;
+      background-size: 60%;
+    overflow: hidden;
+
+    
+    }
+
+#hero-img {
+    border:solid 8px rgb(250, 47, 226);
+    position: absolute;
+    top: 120px;
+    scale: 89%;
+    left: -40px;
+    box-shadow: rgb(187, 19, 213) 0px 0px 0px 3px, rgb(118, 36, 207) 0px 0px 0px 6px, rgb(86, 42, 229) 0px 0px 0px 9px, rgb(122, 217, 255) 0px 0px 0px 12px, rgb(135, 237, 133) 0px 0px 0px 15px;
+}
+
+#aboutNumerologyBox {
+    box-shadow: rgb(255, 34, 211) 0px 2px 4px, rgb(255, 50, 255) 0px 7px 13px -3px, rgb(255, 22, 224) 0px -3px 0px inset;
+}
+#navbar {
+    border-bottom: solid 6px rgb(81, 84, 176);
+}
+
+#hand {
+    position: absolute;
+    z-index: 40;
+    top: -250px;
+    left: 360px;
+    scale: 42%;
+    filter: drop-shadow(12px 2px 2px hotpink);
+}
+#moon {
+    position: absolute;
+    z-index: 50;
+    top: -240px;
+    left: 60px;
+    scale: 17%;
+}
+#header-title {
+    position: absolute;
+    left: -20px;
+    top: 35px;
+    font-size: 78px;
+    font-family: 'Sevillana', cursive;
+    font-weight: 900;
+    z-index: 60;
+    background: url(https://i.ibb.co/LRT0W5H/shutterstock-1033413922.jpg);
+  
+    background-attachment: fixed;
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+   -webkit-text-stroke: 2px rgb(13, 5, 48);
+
+}
+
+h1 {
+    -webkit-text-stroke: .5px rgb(97, 97, 151);
+    font-weight: 900;
+    color: rgb(95, 16, 62);
+    
+}
+#navbar {
+    height: 165px;
+    padding-bottom: 10px;
+    z-index: 30;
+}
+
+#no-prof-div {
+    background: url("https://i.ibb.co/Rc9LMH5/david-pisnoy-Gm-N13w9bg8w-unsplash.jpg");
+    background-size: 20%;
+    opacity: 100%;
+    filter: drop-shadow(1px 4px 2px purple);
+    position: absolute;
+    bottom: -250px;
+    z-index: 40;
+    height: 130px;
+    overflow-y: hidden;
+}
+#no-profs {
+    filter: drop-shadow(1px 4px 2px purple);
+
+    -webkit-text-stroke: 1px rgb(69, 58, 214); 
+    color:rgb(104, 16, 45);
+    text-shadow: 5px 4px 5px rgb(236, 78, 215);
+   
+}
+
+#h3 {
+  
+    color: black;
+    text-shadow: 2px 2px 2px rgb(60, 60, 136);
+    filter: drop-shadow(2px 2px 2px rgb(255, 154, 196));
+    
+}
+
+#section {
+    border-top: 12px;
+    
+}
+#pattern-img {
+    position: absolute;
+    top: -20px;
+    object-fit: contain;
+}
+#footer-img {
+    position: absolute;
+    bottom: -100px;
+    right: 10px;
+    scale: 50%;
+}
+#tiles {
+    position: absolute;
+    
+}
+
+#rock-img {
+
+position: absolute;
+left: 10px;
+top: 165px;
+z-index: 20;
+scale: 110%;
+}
+
+#water {
+    position: absolute;
+    top: 72px;
+    right: 530px;
+    width: 35%;
+    z-index: 20;
+}
+
+#pattern {
+position: absolute;
+top: 155px;
+right: 10px;
+scale: 107%;
+z-index: 0;
+}
+#sun-img {
+    filter: drop-shadow(2px 2px 4px blue);
+    top: -802px;
+    position: absolute;
+    left: 1000px;
+    scale: 90%;
+    z-index: 60;
+}
+
+#add-btn {
+    filter: drop-shadow(2px 3px 4px rgb(95, 16, 62));
+    z-index: 60;
+}
+
+
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    z-index: 100;
+    background-color:rgb(95, 16, 62);      /* Footer height */
+  }
+
+#header-img {
+  width: 100%;
+  height: 400px;
+  background: url('http://www.kodhus.com/freecourse-images/header-image.jpg');
+  background-size: cover;
+  opacity: 100%;
+}
+
+#numerology-header {
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+#sun-shadow {
+    filter: drop-shadow(1px 4px 2px rgb(47, 255, 57));
+}
+
+#lifepath {
+    position: absolute;
+    width: 270px;
+    top: 130px;
+    right: 120px;    
+    z-index: 60;
+}
+
