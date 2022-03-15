@@ -73,6 +73,7 @@ top: -37px;
     scale: 80%;
 }
 #profile {
+    z-index: 1000;
     position: absolute;
     left: 60px;
     box-shadow: rgba(233, 42, 191, 0.404) -5px 5px, rgba(124, 8, 218, 0.397) -10px 10px, rgba(105, 5, 163, 0.384) -15px 15px, rgba(25, 107, 117, 0.404) -20px 20px, rgba(132, 226, 255, 0.534) -25px 25px;
@@ -152,8 +153,6 @@ body {
     font-weight: 900;
     z-index: 60;
     background: url(https://i.ibb.co/LRT0W5H/shutterstock-1033413922.jpg);
-  
-    background-attachment: fixed;
    -webkit-text-fill-color: transparent;
    -webkit-background-clip: text;
    -webkit-text-stroke: 2px rgb(13, 5, 48);
@@ -231,7 +230,7 @@ scale: 110%;
 
 #water {
     position: absolute;
-    top: 72px;
+    top: 122px;
     right: 530px;
     width: 35%;
     z-index: 20;
@@ -246,7 +245,7 @@ z-index: 0;
 }
 #sun-img {
     filter: drop-shadow(2px 2px 4px blue);
-    top: -802px;
+    top: -302px;
     position: absolute;
     left: 1000px;
     scale: 90%;
@@ -288,7 +287,7 @@ z-index: 0;
 #lifepath {
     position: absolute;
     width: 270px;
-    top: 130px;
+    top: 200px;
     right: 120px;    
     z-index: 60;
 }

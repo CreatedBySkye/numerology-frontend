@@ -292,7 +292,7 @@ const UserProfile = ({
    </div>
    
   
-<img src="https://i.ibb.co/LRT0W5H/shutterstock-1033413922.jpg" alt="shutterstock-1033413922" className="absolute w-screen z-20"/>
+<img src="https://i.ibb.co/LRT0W5H/shutterstock-1033413922.jpg" alt="shutterstock-1033413922" className="z-0 w-screen"/>
    
     </> 
   );

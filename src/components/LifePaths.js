@@ -44,6 +44,8 @@ let img2 = document.getElementById("pattern")
 img2.style.opacity="0%"
 let h5 = document.querySelector("H5")
 h5.style.opacity="0%"
+let water = document.getElementById("water")
+water.style.opacity="0%"
   return (
     <div className=""> 
     
