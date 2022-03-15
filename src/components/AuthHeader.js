@@ -15,7 +15,7 @@ let refreshPage = () => {
     <>
       <div id="header-img">
    
-   <Navbar fluid_id="navbar" variant="dark" className="z-50 mb-2 pb-4 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... text-black h-2/5 bg-blue-200 border-b-8 border-indigo-700" id="navbar">
+   <Navbar fluid_id="navbar" variant="dark" className=" mb-2 pb-4 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... text-black h-2/5 bg-blue-200 border-b-8 border-indigo-700" id="navbar">
      <Navbar.Brand>
        &nbsp;
   

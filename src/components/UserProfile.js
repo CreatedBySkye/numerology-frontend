@@ -5,8 +5,7 @@ import OtherProfile from "./OtherProfile";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
-import axios from "axios";
-
+import ProfileForm from "./ProfileForm";
 import '../index.css'
 
 const UserProfile = ({
@@ -138,6 +137,7 @@ const UserProfile = ({
 
   // const handleClose = () => setShow(false);
   // const handleShow = () => setShow(true);
+
   return (
     
 

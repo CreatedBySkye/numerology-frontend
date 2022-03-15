@@ -32,11 +32,11 @@ const ProfileForm = () => {
   };
 
   return (
-    <>
-    <Form className="mt-4 bg-white lg:w-2/5 border-8 radius-25 border-purple-400 ml-4 pl-4">
-      <h1 className="ml-40 mt-4">Create Profile</h1>
+    <div id="form">
+    <Form id="profileform" className="mt-4 bg-white lg:w-2/5 border-8 radius-25 border-purple-400 ml-4 pl-4">
+      <h1 className="ml-40 mt-4 z-50 pb-1 pt-1 border-t-2 border-t-black border-b-2 border-b-black" id="createprofile"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;create your profile</h1>
       <FormGroup className="w-1/2 ml-40">
-        <Label for="profileName">Name</Label>
+        <Label for="profileName" className="bg-black">Name (First, Last)</Label>
         <Input
           type="text"
           name="profileName"
@@ -47,18 +47,26 @@ const ProfileForm = () => {
         />
       </FormGroup>
       <FormGroup className="w-1/2 ml-40">
-        <Label for="profileGender">Gender</Label>
+        <Label for="profileGender" className="bg-black">Gender</Label>
         <Input
-          type="text"
+          type="select"
+          option="male"
           name="profileGender"
           id="profileGender"
           value={currentGender}
           onChange={(e) => setCurrentGender(e.target.value)}
-          
-        />
+         
+        >
+          <option>Male</option>
+          <option>Female</option>
+          <option>Transgender</option>
+          <option>Non-binary</option>
+          <option>Prefer not to say</option>
+        </Input>
+     
       </FormGroup>
       <FormGroup className="w-1/2 ml-40">
-        <Label for="profileBirthMonth">Birth Month-(MM)</Label>
+        <Label for="profileBirthMonth" className="bg-black">Birth Month (MM)</Label>
         <Input
           type="number"
           name="profileBirthMonth"
@@ -69,7 +77,7 @@ const ProfileForm = () => {
         />
       </FormGroup>
       <FormGroup className="w-1/2 ml-40">
-        <Label for="profileBirthDay">Birth Day-(DD)</Label>
+        <Label for="profileBirthDay" className="bg-black">Birth Day (DD)</Label>
         <Input
           type="number"
           name="profileBirthDay"
@@ -80,7 +88,7 @@ const ProfileForm = () => {
         />
       </FormGroup>
       <FormGroup className="w-1/2 ml-40">
-        <Label for="profileBirthYear">Birth Year-(YYYY)</Label>
+        <Label for="profileBirthYear" className="bg-black">Birth Year (YYYY)</Label>
         <Input
           type="number" 
           name="profileBirthYear"
@@ -90,9 +98,9 @@ const ProfileForm = () => {
          
         />
       </FormGroup>
-      <Button className="ml-40 mb-4"onClick={handleFormSubmit}>Submit</Button>
+      <Button className="ml-40 mb-4" id="submit" onClick={handleFormSubmit}>Submit</Button>
     </Form>
-    </>
+    </div>
   );
 };
 

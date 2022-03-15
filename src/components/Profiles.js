@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Profile from "./Profile";
-
+import ProfileForm from "./ProfileForm";
 const Profiles = () => {
   const [profiles, setProfiles] = useState([]);
   const [error, setError] = useState(undefined);
@@ -23,7 +23,7 @@ const Profiles = () => {
   }, [error]);
 
   if (profiles.length < 1) {
-    return <div>Loading...</div>;
+    return <ProfileForm />;
   } else if (error) {
     return <div>Failed to fetch life paths</div>;
   }

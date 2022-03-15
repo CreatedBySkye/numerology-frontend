@@ -17,7 +17,7 @@ function App() {
       <Router>
       {isAuthenticated ? <><AuthHeader/></> : <><Header /></>}
         <Switch>
-        <Route path="/CreateProfile" component={CreateProfile} />
+      
           <Route exact path="/" component={Home}>
           <Home/>
           

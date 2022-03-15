@@ -5,6 +5,7 @@ import ProfileForm from "./ProfileForm";
 import UserProfile from "./UserProfile";
 
 const CreateProfile = () => {
+  
   const [userProfiles, setUserProfiles] = useState([]);
   const [error, setError] = useState(undefined);
 
@@ -111,7 +112,7 @@ const CreateProfile = () => {
       handleUserProfileEdit={handleUserProfileEdit}
     />
     </>
-  ) : ( <ProfileForm />
+  ) : ( <ProfileForm/>
   
   );
 };
