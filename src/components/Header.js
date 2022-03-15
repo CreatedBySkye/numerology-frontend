@@ -29,7 +29,7 @@ const Header = () => {
             <img src="https://i.ibb.co/hf5FJch/lotus.png" alt="lotus" id="lotus-4" />
             <img src="https://i.ibb.co/hf5FJch/lotus.png" alt="lotus" id="lotus-5" />
           </Navbar.Brand>
-          <h2 id="quote"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; "There is geometry in the humming of the strings, there is music in the spacing of the spheres." -Pythagoras </h2>
+         
           <Nav>
   
             <AuthNav />

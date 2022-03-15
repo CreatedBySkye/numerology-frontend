@@ -32,8 +32,7 @@ let refreshPage = () => {
        <img src="https://i.ibb.co/hf5FJch/lotus.png" alt="lotus" id="lotus-4" />
        <img src="https://i.ibb.co/hf5FJch/lotus.png" alt="lotus" id="lotus-5" />
      </Navbar.Brand>a
-     <h2 id="quote">"There is geometry in the humming of the strings,</h2> <br /> <h2 id="quote-2">there is music in the spacing of the spheres" </h2><br /> 
-   <h2 id="quote-3" className="absolute right-20">&nbsp; -  Pythagoras</h2>
+     
      <Nav>
             <Nav.Item>  
               <button id="lifepath"><Link to="/LifePaths" className="bg-gradient-to-tr z-50 nav-link rounded-md text-black m-0 p-1 border-4 border-purple-700">
